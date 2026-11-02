@@ -1,2 +1,15 @@
-   User-agent: *
-   Allow: /
+# Allow all crawlers including Facebook
+User-agent: *
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
